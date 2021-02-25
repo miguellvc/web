@@ -1,0 +1,32 @@
+// variables
+$color-fondo: rgb(224, 210, 210);
+$color-primario: white; 
+*{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: $color-fondo ;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    background:$color-primario;
+    
+    #navbar {
+        ul{
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 20px;
+        }
+    }
+}
